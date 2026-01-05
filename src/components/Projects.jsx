@@ -3,6 +3,25 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
+  title: "Shop Sphere – E-Commerce Web Application",
+  desc: "A modern, responsive e-commerce application enabling users to browse products, view details, manage a shopping cart, and experience a smooth online shopping workflow.",
+  tech: [
+    "React 18",
+    "JavaScript (ES6+)",
+    "Context API",
+    "HTML5",
+    "CSS3",
+    "Framer Motion"
+  ],
+  images: [
+    "/images/shop-sphere-home.png",
+    "/images/shop-sphere-product.png",
+    "/images/shop-sphere-cart.png"
+  ],
+  link: "#"
+},
+
+  {
     title: "Financial Trade Reporting & Compliance Platform",
     desc: "Next-gen trade reporting and compliance platform for JP Morgan Chase with real-time analytics, trade monitoring, and regulatory reporting.",
     tech: ["React 18", "Next.js 14", "TypeScript", "Redux Toolkit", "AWS"],
