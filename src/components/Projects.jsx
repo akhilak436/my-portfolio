@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 
+const basePath = process.env.PUBLIC_URL || "";
+
 const projects = [
   {
   title: "Shop Sphere – E-Commerce Web Application",
@@ -14,9 +16,9 @@ const projects = [
     "Framer Motion"
   ],
   images: [
-    "/images/shop-sphere-home.png",
-    "/images/shop-sphere-product.png",
-    "/images/shop-sphere-cart.png"
+    `${basePath}/images/shop-sphere-home.png`,
+    `${basePath}/images/shop-sphere-product.png`,
+    `${basePath}/images/shop-sphere-cart.png`
   ],
   link: "#"
 },
